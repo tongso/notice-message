@@ -109,9 +109,9 @@ class Juhe extends MessageSender
             foreach ($templateParam as $filed => $value) {
                $newField = '#' . $filed . '#';
                $newValue = urlencode($value);
-               $newTemplateParam[$newField] = $newValue;
+               $newTemplateParam[] = $newField . '=' . $newValue;
             }
-            $parsedTemplateValue = urlencode(http_build_query($newTemplateParam, '&'));
+            $parsedTemplateValue = implode('&', $newTemplateParam);
         }
         $sendRet = $this->callSendSms($phoneNumbers, $templateCode, $parsedTemplateValue);
         if ($sendRet['error_code'] == 0) {
