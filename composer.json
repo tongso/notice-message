@@ -1,6 +1,6 @@
 {
   "name": "tongso/notice-message",
-  "description": "基于tp6的第三方通知消息发送适配工具",
+  "description": "适用于thinkphp6的短信通知消息发送插件",
   "version" : "1.0.0",
   "minimum-stability": "dev",
   "license": "Apache-2.0",
