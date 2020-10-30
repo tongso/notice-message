@@ -96,7 +96,7 @@ class Aliyun extends MessageSender
         $smsResult->code = 500;
         $parsedTemplateParam = null;
         if (!empty($templateParam))
-            $parsedTemplateParam = json_encode($templateCode);
+            $parsedTemplateParam = json_encode($templateParam);
         try {
             $sendRet = $this->callSendSms($phoneNumbers, $templateCode, $parsedTemplateParam);
             if ($sendRet['Code'] == 'Code') {
