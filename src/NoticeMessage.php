@@ -14,7 +14,7 @@ class NoticeMessage
         $vendorName = ucfirst(strtolower($apiVendor));
         //判断vendor合法性并实例化服务器sdk类
         if (in_array($vendorName, $this->SDKS)) {
-            $class = '\\tongso\\noticeMessage\\Sdks\\' . $vendorName;
+            $class = '\\tongso\\noticeMessage\\sdks\\' . $vendorName;
             return new $class();
         } else {
             throw new \Exception('暂时还不支持该' . $apiVendor . '的扩展');

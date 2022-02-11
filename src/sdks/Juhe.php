@@ -1,5 +1,5 @@
 <?php
-namespace tongso\noticeMessage\Sdks;
+namespace tongso\noticeMessage\sdks;
 use think\facade\Config;
 use tongso\noticeMessage\MessageSender;
 use tongso\noticeMessage\SMSResult;
