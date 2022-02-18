@@ -1,14 +1,14 @@
 {
-  "name": "tongso/notice-message",
+  "name": "moxyu/notice-message",
   "description": "适用于thinkphp6的短信通知消息发送插件",
-  "version" : "1.0.3",
+  "version" : "1.0.4",
   "minimum-stability": "dev",
   "license": "Apache-2.0",
   "homepage": "https://www.mrbyte.cn/",
   "authors": [
     {
-      "name": "Lukin",
-      "email": "6306643@qq.com"
+      "name": "Moxyu",
+      "email": "1094111567@qq.com"
     }
   ],
   "require": {
