@@ -3,7 +3,7 @@
  * 阿里云短信SDK
  */
 
-namespace tongso\noticeMessage\Sdks;
+namespace tongso\noticeMessage\sdks;
 
 
 use AlibabaCloud\Client\AlibabaCloud;
